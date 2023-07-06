@@ -1,0 +1,67 @@
+.c-container{
+    justify-content: space-between;
+}
+
+
+
+.c-container>div{
+    flex:1
+}
+
+.c-right{
+    gap: 0.5rem;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+.c-left{
+    gap: 0.5rem;
+margin-top: 2rem;
+}
+.contactMods{
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.contactMods.row{
+    gap: 2rem;
+}
+.icon{
+    margin-right: 1rem;
+}
+.mode{
+    width: 16rem;
+    padding: 1rem;
+    border: 0.8 solid rgba(128, 128,128, 0.143);
+    gap: 1rem;
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+}
+.mode.button{
+    width: 100%;
+    background: var(--lightBlue);
+    color: var(--blue);
+    font-size: 0.9rem;
+    font-weight: 600;
+
+}
+
+.mode >:nth-child(1){
+    width: 100%;
+    gap: 1.6rem;
+}
+.mode.detail.primaryText{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.mode:hover{
+    scale: 1.1;
+    box-shadow: var(--blue);
+}
+.mode.button:hover{
+    background: var(--blue-gradient);
+    color: white;
+    scale: 0.8;
+}
